@@ -4,7 +4,7 @@
   "version": "1.2.3",
   "author": "lizheming <i@imnerd.org>",
   "scripts": {
-    "start": "node development.js",
+    "start": "node production.js",
     "copy-package": "node bin/copy_package.js",
     "webpack": "rimraf www/static/js && webpack --watch --progress",
     "build": "rimraf www/static/js && cross-env NODE_ENV=prod webpack",
